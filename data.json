@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Halo", "Hai", "hello","Hey","Hola", "Hello", "hay"],
+     "responses": ["Hello, kak", "selamat datang kak", "haii, ada yang bisa saya bantu?", "Halo kak"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "dadah", "selamat tinggal"],
+     "responses": ["See you!", "dadahh kak, nanti balik lagi ya", "sampai jumpa kak"],
+     "context": [""]
+    },
+    {"tag": "nama",
+    "patterns": ["nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?", "nama lo sape dah ?", "nama?"],
+    "responses": ["Namaku Edubot, salam kenal kak!", "Halo, aku Edubot!", "Kenalin, aku Edubot!"],
+    "context": [""]
+    },
+    {"tag": "pekerjaan",
+     "patterns": ["lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?", "tugas kamu apa?", "tugas lo ngapain?"],
+     "responses": ["Aku bantu dalam mengelola admintrasi dan edukasi kak", "Tugasku jadi asisten kakak untuk bertanya"],
+     "context": [""]
+    },
+    {"tag": "pelajaran",
+    "patterns": ["apa itu jarkom ?", "apa tuh jaringan komputer?", "emang jarkom  apa sih?", "wah apa tuh jaringan komputer?", "jarkom emang apa?"],
+    "responses": ["Jaringan komputer atau jejaring komputer adalah jaringan telekomunikasi yang memungkinkan antar komputer untuk saling berkomunikasi dengan bertukar data "],
+    "context": [""]
+    },
+    {"tag": "quiz",
+    "patterns": ["soal quiz apa ?", "minta soal quiz?", "soal quiz dimana sih?", "latihan jarkom?", "quiz emang apa?"],
+    "responses": ["Soal quiz buat belajar jarkom ada di sini https://quizizz.com/admin/quiz/5db592788aacb8001a03dd0a/jaringan-komputer ", "coba akses link ini kak https://quizizz.com/admin/quiz/5db592788aacb8001a03dd0a/jaringan-komputer"],
+    "context": [""]
+    },
+    {"tag": "youtube",
+     "patterns": ["channel nya bisa diliat dimana?", "mana linknya?", "minta link dong!", "youtube nya apa?", "dimana urlnya?,","jarkom", "jaringan komputer"],
+     "responses": ["Bisa dilihat di https://www.youtube.com/watch?v=U7W2Qw8NLf8, pelajari ya kak!", "Ini kak link nya https://www.youtube.com/watch?v=U7W2Qw8NLf8. Pelajari ya kak!"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "terima kasih", "keren, makasih", "Terima kasih banyak"],
+     "responses": ["Senang bisa membantu!", "sama-sama!", "Sama-sama kak"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Maaf kak, aku gapaham :(", "Bisa diulang pertanyaannya?", "Aku gapaham Kak"],
+     "context": [""]
+    }
+]
+}
